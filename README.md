@@ -52,3 +52,15 @@ pip install -r requirements.txt
 # 4. Run the main script
 python explainable_scene_understanding.py
 
+Example Output
+
+Input: sample.png
+Detected Objects: ['person', 'bicycle', 'car']
+Scene Description: a man riding a bike down a street
+
+Output Files (in streamlit_outputs/):
+
+labeled_sample.png
+scene_graph_sample.png
+details_sample.txt
+
